@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input[type="checkbox"] {
+    display: none;
+}
+label {
+    width: 50%;
+    margin: auto;
+    color: #a970ff;
+    background-color: blanchedalmond;
+    padding: 1%;
+    display: flex;
+}
+label:hover {
+    cursor: pointer;
+}
+.search-box {
+    width: 30%;
+    height: 35px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #a970ff;
+    box-shadow: #16161670 0px 5px 10px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+input[type="text"] {
+    all: unset;
+    text-align: left;
+}
+::placeholder {
+    color: rgba(216, 216, 216, 0.603);
+}
+button[name="search"] {
+    border: none;
+    cursor: pointer;
+    background-color: #70ff91;
+    padding: 1%;
+    color: #a970ff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: #16161670 0px 5px 10px;
+    font-family: "Raleway", "sans-serif";
+    font-weight: bold;
+    transition: transform 0.2s;
+}
+button[name="search"]:hover {
+    transform: scale(1.05);
+}
+button[name="search"]:active {
+    color: #70ff91;
+    background-color: #a970ff;
+}

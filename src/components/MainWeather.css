@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap");
+.main-weather {
+    height: 100vh;
+    background-image: linear-gradient(
+        to bottom,
+        #a044ff,
+        #a251ff,
+        #a45cff,
+        #a666ff,
+        #a970ff
+    );
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 2% 1% 2%;
+    margin-bottom: 0px;
+}
+#weather-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 88%;
+    align-items: center;
+    margin-top: 0px;
+    padding: 0%;
+}
+.today-weather {
+    margin-top: 0;
+    visibility: hidden;
+}
+.next-five-days {
+    width: 60%;
+    height: auto;
+    text-align: center;
+    visibility: hidden;
+    display: flex;
+    justify-content: space-around;
+}
+button[name="home"] {
+    all: unset;
+    cursor: pointer;
+}
+.spinner {
+    text-align: center;
+    width: 50%;
+    margin: 15% auto;
+}

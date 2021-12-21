@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap");
+.today-weather {
+    width: 50%;
+    margin: 5% auto 3% auto;
+    text-align: center;
+}
+h1 {
+    font-family: "Spartan", sans-serif;
+    color: #70ff91;
+    font-size: 1em;
+}
+h2 {
+    font-family: "Spartan", sans-serif;
+    color: white;
+    margin: 0;
+}
+h4 {
+    font-family: "Oxygen", sans-serif;
+    font-size: 1.3em;
+    margin: 0;
+}
+h5 {
+    margin: 0;
+    font-size: 1.4em;
+    color: white;
+    font-family: "Oxygen", sans-serif;
+}
